@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Моето онлайн тест приложение")
+st.title("Въпросник")
 
 st.write("Отговори на въпросите по-долу:")
 
