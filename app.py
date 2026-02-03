@@ -28,7 +28,7 @@ elif category == "История":
     st.subheader("Въпрос по История")
     question = "През коя година е основана българската държава?"
 
-    answer = st.text_input("Въведи година:")
+    answer = st.text_input("През коя година е основана българската държава?")
 
     if st.button("Провери"):
         if answer == "681":
