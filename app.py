@@ -38,8 +38,8 @@ elif category == "История":
         else:
             st.error("Неправилно! Верният отговор е 681.")
 
-    if st.button("Провери"):
-        if answer2 == "Борис":
+  
+        if answer.lower() == "Борис":
             st.success("Точно така! Княз Борис")
         else:
             st.error("Неправилно! Верният отговор е княз Борис")
